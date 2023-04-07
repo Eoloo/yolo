@@ -12,9 +12,9 @@ RUN npm install
 
 COPY . /app
 
-ENV PORT=10000
+ENV PORT=3000
 
-EXPOSE 10000
+EXPOSE 3000
 
 CMD ["npm run server" "npm run client"]
 
