@@ -57,3 +57,9 @@ Successful running of the applications and if not, debugging measures applied.
 The application runs successfully,yolo-backend,server listens on port 5000 and Database connected successfully
 
 yolo-client compiled succesfully and app can be viewed on the localhost http://localhost:3000
+
+Both images have been tagged as
+
+sha256:a9165dc7cd582271fdf2afd47e4e511d948968749933c383dd14ab81acf27a9d  :backend-backend image
+
+sha256:0dfb406f2fcc7cb1137ab5340ac2aee663c05dedf5ca8d2a7be874898154c302 :backend-client image

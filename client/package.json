@@ -23,7 +23,27 @@
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "options": {
+      "allowedHosts": [
+        "localhost",
+        ".localhost"
+      ],
+      "proxy": "https://localhost:5000/"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 microsoft edge version",
+        "last 1 safari version"
+      ]
+    }
   },
   "browserslist": {
     "production": [
