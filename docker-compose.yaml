@@ -2,7 +2,7 @@ version: '2'
 
 services:
   client:
-    container_name: client_container
+    container_name: client1_container
     ports:
     - 3000:3000
     build:
@@ -12,7 +12,7 @@ services:
       frontend-net:
         ipv4_address: 172.51.0.101    
   backend:
-    container_name: back-end_container
+    container_name: backend1_container
     ports: 
     - 5000:5000
     build:
@@ -31,7 +31,7 @@ services:
       - database
 
   database:
-    container_name: backend_database
+    container_name: back-end_database
     ports:
       - 27017:27017
     image: mongo
