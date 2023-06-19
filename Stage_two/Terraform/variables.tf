@@ -15,6 +15,10 @@ variable "instances" {
     "ansible-client-two",
   ]
 }
+variables “google_creds” { 
+type = string 
+default = ""
+}
 
 variable "token" {
   type    = string

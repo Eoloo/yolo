@@ -3,7 +3,9 @@
   vars:
     client_image: eoloo/yolo-client:20.2.2
     backend_image: eoloo/yolo-backend:20.2.1
-    app_folder: /yolo
+    app_folder: /opt/yolo
+    compose_file_src: /home/eoloo/YOLO/docker-compose.yaml
+    compose_file_dest: "{{ app_folder }}/docker-compose.yaml"
   tasks:
     - name: Update the cache
       apt:
