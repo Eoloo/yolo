@@ -64,3 +64,6 @@ Both images have been tagged as
 eoloo/yolo-backend:20.2.1
 
 eoloo/yolo-client:20.2.2
+
+reasoning for order of execution in the playbook
+The execution start from the top down on the docker-playbooks.yaml. 
