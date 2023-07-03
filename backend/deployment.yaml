@@ -17,7 +17,7 @@ spec:
         - name: yolo-backend
           image: eoloo/yolo-backend:20.2.1
           ports:
-            - containerPort: 3000
+            - containerPort: 5000
           env:
             - name: NODE_ENV
               valueFrom:
