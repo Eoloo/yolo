@@ -1,10 +1,10 @@
 apiVersion: v1
-kind: Service
+kind: Service-backend
 metadata:
   name: backend-service
 spec:
   selector:
-    app: yolo/backend
+    app: yolo-backend
   type: LoadBalancer
   ports:
     - protocol: TCP
