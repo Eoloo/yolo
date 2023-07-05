@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream:backend/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -25,7 +24,6 @@ spec:
                 configMapKeyRef:
                   name: yolo-backend-config-map
                   key: NODE_ENV
-=======
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -52,5 +50,4 @@ spec:
                 configMapKeyRef:
                   name: yolo-backend-config-map
                   key: NODE_ENV
->>>>>>> Stashed changes:backend/backend-deployment.yaml
             
